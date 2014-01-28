@@ -100,7 +100,6 @@ textarea {
 /*Preload Blinky*/
 body:after {
     display: none;
-    content: url(../img/KrakenLogoLargeBlink.png) url(../img/oldLogo@Low.png);
 }
 
 h1 {
@@ -170,7 +169,7 @@ header .hex2 div {
 
 }
 
-header .kraken a {
+header .homeItem a {
     text-decoration: none;
 }
 
@@ -203,15 +202,11 @@ div.wrapper {
 }
 
 #MainLogo {
-    background-image: url(../img/KrakenLogoLarge.png);
+    background-image: url(../img/main_logo.png);
 }
 
 #MainLogo:hover {
-    background-image: url(../img/KrakenLogoLargeBlink.png);
-}
-
-#OldLogo {
-    background-image: url(../img/oldLogo@Low.png);
+    background-image: url(../img/main_logo_hover.png);
 }
 
 #IntroText {
@@ -362,7 +357,6 @@ li.kappa div.moduleTitle  {
     margin: 0 1em;
     vertical-align: top;
     display: inline-block;
-    width: 27%;
 
 }
 
