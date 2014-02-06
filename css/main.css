@@ -112,7 +112,6 @@ a {
 
 body {
     background-color: #263C81;
-    background-image: url("../img/Rays.png");
     background-repeat: repeat-x;
     background-position: -200px 0;
     font-family: "Helvetica Neue", arial, sans-serif;
@@ -239,44 +238,8 @@ div.wrapper {
     color: #01aaff;
 }
 
-#Rocks {
-    background-image: url("../img/Rocks.png");
-    background-repeat: repeat-x;
-    height: 111px;
-    position: relative;
-    z-index: 2;
-}
-
-#Rocks .bottom {
-    background-color: #232556;
-    height: 51px;
-    margin-top: 38px;
-}
-
-#Tentacle {
-    background-image: url("../img/Tentacle.png");
-    background-position: 0 20px;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 415px;
-    width: 326px;
-    bottom: 1px;
-    right: 5%;
-    z-index: -1;
-}
 
 #InfoBlock {
-    background: #232556; /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzMjU1NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iIzAwNGY4YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
-    background: -moz-linear-gradient(top, #232556 0%, #004f8b 40%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #232556), color-stop(40%, #004f8b)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #232556 0%, #004f8b 40%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #232556 0%, #004f8b 40%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #232556 0%, #004f8b 40%); /* IE10+ */
-    background: linear-gradient(to bottom, #232556 0%, #004f8b 40%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#232556', endColorstr='#004f8b', GradientType=0); /* IE6-8 */
-
     padding-bottom: 30px;
 }
 
